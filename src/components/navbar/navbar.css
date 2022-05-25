@@ -21,3 +21,27 @@
     width:120px;
     height:150px;
 } */
+
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    aligh-items: center;
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+    color: darkslategray;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 80px;
+    text-transform: capitalize;
+    margin: 3rem 2rem;
+    cursor: pointer;
+}
