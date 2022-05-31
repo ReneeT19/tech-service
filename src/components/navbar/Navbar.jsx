@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import reTech from '../../assets/reTech-logo.png'
+import reTech from '../../assets/reTech-logo.png';
+
 
 const Menu = () => (
   <>
@@ -17,7 +18,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  return (
+  return (<>
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
@@ -49,6 +50,16 @@ const Navbar = () => {
         )}
       </div>
     </div> 
+    <div class='light x1'></div>
+    <div class='light x2'></div>
+    <div class='light x3'></div>
+    <div class='light x4'></div>
+    <div class='light x5'></div>
+    <div class='light x6'></div>
+    <div class='light x7'></div>
+    <div class='light x8'></div>
+    <div class='light x9'></div>
+    </>
   )
 }
 
