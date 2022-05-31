@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+import ai from '../../assets/IT-support.png';
 
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
         <h1 className="gradient__text">
           Good tech solutions lead to good business
         </h1>
-        <p>We provide technological services to help companies with their operations and goals. Work with us today and let's start building something together!</p>
+        <p>We provide technological services to help companies with their operations and goals. Work with us today and let's start building something together! Send an inquiry below by typing your email.</p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
           <button type="button">Get Started</button>

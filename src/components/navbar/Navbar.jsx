@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import reTech from '../../assets/reTech.png'
+import reTech from '../../assets/reTech-logo.png'
 
 const Menu = () => (
   <>
