@@ -5,9 +5,9 @@
     scroll-behavior: smooth;
 }
 
-body {
+/* body {
     background: var( --color-bg)
-}
+} */
 
 a {
     color: unset;
@@ -17,7 +17,7 @@ a {
 .gradient__bg {
     background:-moz-linear-gradient(90deg, rgba(117, 201, 183, 1) 0%, rgba(19, 130, 106, 1) 100%); 
 
-    /* safari 5.1+,chrome 10+ */
+    /* safari 5.1+,chrome 10+ */ 
     background:-webkit-linear-gradient(90deg, rgba(117, 201, 183, 1) 0%, rgba(19, 130, 106, 1) 100%);
 
     /* opera 11.10+ */
@@ -32,6 +32,8 @@ a {
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, rgba(117, 201, 183, 1) 0%, rgba(19, 130, 106, 1) 100%);
 }
+
+
 
 .gradient__text {
     background: var(--gradient-text);
@@ -75,7 +77,8 @@ a {
               transform: scale(1);
     }
   }
-  
+
+
   /* set the padding and margin for mid-size-screen devices such as tablets or big phone */
   @media screen and (max-width: 700px) {
       .section__padding {

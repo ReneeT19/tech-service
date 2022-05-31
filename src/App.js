@@ -3,19 +3,22 @@ import { Footer, Blog, Possibility, Features, WreTech, Header } from './containe
 import { CTA, Brand, Navbar } from './components';
 import './App.css';
 
+
 const App = () => {
   return (
     <div className="App">
-        <div className="gradient__bg"> 
+        <div className="body"> 
           <Navbar />
           <Header />
         </div>
-        <Brand />
-        <WreTech />
-        <Features />
-        <Possibility />
-        <CTA />
-        <Blog />
+        <div className="gradient__bg">
+          <Brand />
+          <WreTech />
+          <Features />
+          <Possibility />
+          <CTA />
+          <Blog />
+        </div>
         <Footer />
     </div>
   )
