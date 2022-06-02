@@ -2,8 +2,7 @@ import React from 'react';
 import './brand.css';
 import { google, slack, atlassian, dropbox, shopify } from './imports.js';
 
-const Brand = () => {
-  return (
+const Brand = () => (
     <div className='gpt3__brand section_padding gradient__bg'>
       <div>
         <img src={google} alt="google" />
@@ -21,7 +20,6 @@ const Brand = () => {
         <img src={shopify} alt="shopify" />
       </div>
     </div>
-  )
-}
+);
 
 export default Brand
