@@ -2,16 +2,17 @@ import React, {useState} from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
+import {Link, NavLink} from 'react-router-dom';
 
 
 const Menu = () => (
   <>
-    <p><a href="#home">Home</a></p>
+    <p><a href="/">Home</a></p>
     <p><a href="#wgpt3">What is reTech?</a></p>
     <p><a href="#possibility">Services</a></p>
     <p><a href="#features">Case Studies</a></p>
-    <p><a href="#pricing">Pricing</a></p>
-    <p><a href="#contact">Contact</a></p> 
+    <p><NavLink to="/pricing">Pricing</NavLink></p>
+    <p><NavLink to="/contact">Contact</NavLink></p> 
   </>
 )
 // BEM -> Block Element Modifier
@@ -25,7 +26,7 @@ const Navbar = () => {
           <img src={logo} />
         </div>
         <div className="gpt3__navbar-links_container">
-         <Menu />
+        <Menu />
         </div>
       </div>
       <div className="gpt3__navbar-sign">
