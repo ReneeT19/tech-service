@@ -8,11 +8,12 @@ import {Link, NavLink} from 'react-router-dom';
 const Menu = () => (
   <>
     <p><a href="/">Home</a></p>
-    <p><a href="#wgpt3">What is reTech?</a></p>
-    <p><a href="#possibility">Services</a></p>
-    <p><a href="#features">Case Studies</a></p>
+    {/* <p><a href="#possibility">Services</a></p>
+    <p><a href="#features">Features</a></p> */}
+    <p><NavLink to="/wretech">WhatIsReTech</NavLink></p>
+    <p><NavLink to="/blogs">Blogs</NavLink></p>
     <p><NavLink to="/pricing">Pricing</NavLink></p>
-    <p><NavLink to="/contact">Contact</NavLink></p> 
+    <p><a href="#contact">Contact</a></p>
   </>
 )
 // BEM -> Block Element Modifier

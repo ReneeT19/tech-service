@@ -35,7 +35,7 @@
     color: lightgray;
 }
 
-.gpt3__blog-container_article-content h3 {
+.gpt3__blog-container_article-content h3, h4 {
     font-family: var(--font-family);
     font-size: 25.11px;
     font-weight: 800;

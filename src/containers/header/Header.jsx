@@ -2,8 +2,26 @@ import React from 'react';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 import './header.css';
+// import '../../components/navbar/navbar.css'
 
-const Header = () => (
+import { Brand } from '../../components';
+import { Features, Possibility } from '../../containers';
+
+const Menu = () => (
+  <>
+    <p><a href="#possibility">Services</a></p>
+    <p><a href="#features">Features</a></p>
+  </>
+)
+
+const Header = () => (<>
+  <div className="gpt3__navbar-home">
+      <div className="gpt3__navbar-links_home">
+        <div className="gpt3__navbar-links_container-home">
+        <Menu />
+        </div>
+      </div>
+    </div>
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">Build Somthing Amazing with reTech</h1>
@@ -24,6 +42,10 @@ const Header = () => (
       <img src={ai} />
     </div>
   </div>
+  <Brand />
+  <Features />
+  <Possibility />
+  </>
 );
 
 export default Header;
